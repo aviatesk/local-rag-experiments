@@ -1,0 +1,100 @@
+# Obsidian RAG実験 共通設定
+
+vault:
+  # NOTE .envで設定されたVAULT_PATHを使用
+  exclude_patterns:
+    - ".*"
+    - "*.excalidraw.md"
+    - "templates/*"
+    - "daily/*"
+
+  update_notes:
+    - "JETLS/Incremental analysis system.md"
+    - "JETLS/JETLS meeting time.md"
+
+defaults:
+  queries:
+    - "JETLSのincremental analysis systemの実装状況を教えて"
+    - "JETLSのincremental analysis system、特にそのcode repository infrastructureの実装状況を教えて"
+    - "Please tell me about the progress status of the EscapeAnalysis project"
+    - "この人の仕事を一言で表すとどんなもの?"
+    - "ChromaDBの使い方を教えて"
+
+  # 検索と回答生成のデフォルトモデル
+  embedding_model: "gemini"  # bgem3, gemini, both
+  query_model: "gemini-2.5-flash"  # gemma3n:e4b または空文字列（検索のみ）
+
+# ベンチマーク設定
+benchmark:
+  # ベンチマーク対象の設定リスト
+  configurations:
+    # 検索のみ（埋め込みモデルの性能比較）
+    - name: "Gemini 埋め込み（検索のみ）"
+      embedding_model: "gemini"
+      query_model: null
+    - name: "BGE-M3 埋め込み（検索のみ）"
+      embedding_model: "bgem3"
+      query_model: null
+
+    # Gemini 埋め込み + 各クエリモデル
+    - name: "Gemini + Gemini Flash"
+      embedding_model: "gemini"
+      query_model: "gemini-2.5-flash"
+    - name: "Gemini + Gemma3n"
+      embedding_model: "gemini"
+      query_model: "gemma3n:e4b"
+
+    # BGE-M3 埋め込み + 各クエリモデル
+    - name: "BGE-M3 + Gemini Flash"
+      embedding_model: "bgem3"
+      query_model: "gemini-2.5-flash"
+    - name: "BGE-M3 + Gemma3n"
+      embedding_model: "bgem3"
+      query_model: "gemma3n:e4b"
+
+  # デフォルトの実行回数
+  runs: 5 # around 1h
+  # runs: 3 # around 40min
+
+  # デフォルトのトップK
+  top_k: 5
+
+# チャンク設定
+chunking:
+  chunk_overlap: 200  # トークン
+  min_chunk_size: 100  # トークン
+
+  bgem3:
+    max_chunk_size: 3000
+    batch_size_gpu: 8
+    batch_size_cpu: 8
+
+  gemini:
+    max_chunk_size: 1500
+    batch_size: 10
+    rate_limit_delay: 0.1
+    max_concurrent_requests: 5
+
+database:
+  persist_directory: "./data/chroma_db"
+  collection_bgem3: "obsidian_bgem3"
+  collection_gemini: "obsidian_gemini"
+
+embeddings:
+  bgem3:
+    model_name: "BAAI/bge-m3"
+    use_fp16: true  # GPU使用時のみ有効
+    normalize: true
+    # NOTE BGE-M3は1024次元固定
+
+  gemini:
+    model_name: "gemini-embedding-001"
+    output_dimensionality: 768
+    task_type_document: "RETRIEVAL_DOCUMENT"  # ドキュメントのインデックス用
+    task_type_query: "QUESTION_ANSWERING"     # 質問応答に最適化
+    auto_truncate: true
+    # NOTEリージョンとプロジェクトIDは.envから取得
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"

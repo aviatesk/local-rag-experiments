@@ -1,0 +1,205 @@
+{
+  "timestamp": "2025-07-19T13:48:36.590231",
+  "results": [
+    {
+      "type": "incremental_update",
+      "result": {
+        "files": [
+          "JETLS/JETLS meeting time.md"
+        ],
+        "embedding_model": "bgem3",
+        "runs": 5,
+        "raw_results": [
+          {
+            "run": 1,
+            "update_time": 6.21736470899998,
+            "updated_files": 1,
+            "new_chunks": 10,
+            "deleted_chunks": 10,
+            "processing_time": 9.5367431640625e-07,
+            "db_time": 6.108513116836548,
+            "api_time": 0
+          },
+          {
+            "run": 2,
+            "update_time": 6.188168041999916,
+            "updated_files": 1,
+            "new_chunks": 10,
+            "deleted_chunks": 10,
+            "processing_time": 0.0,
+            "db_time": 6.171370029449463,
+            "api_time": 0
+          },
+          {
+            "run": 3,
+            "update_time": 6.336807374999921,
+            "updated_files": 1,
+            "new_chunks": 10,
+            "deleted_chunks": 10,
+            "processing_time": 9.5367431640625e-07,
+            "db_time": 6.320770263671875,
+            "api_time": 0
+          },
+          {
+            "run": 4,
+            "update_time": 6.373155916999963,
+            "updated_files": 1,
+            "new_chunks": 10,
+            "deleted_chunks": 10,
+            "processing_time": 0.0,
+            "db_time": 6.35615086555481,
+            "api_time": 0
+          },
+          {
+            "run": 5,
+            "update_time": 6.243457165999985,
+            "updated_files": 1,
+            "new_chunks": 10,
+            "deleted_chunks": 10,
+            "processing_time": 0.0,
+            "db_time": 6.227303981781006,
+            "api_time": 0
+          }
+        ],
+        "stats": {
+          "update_time": {
+            "mean": 6.271790641799953,
+            "min": 6.188168041999916,
+            "max": 6.373155916999963,
+            "stdev": 0.0794666625411897
+          },
+          "new_chunks": {
+            "mean": 10,
+            "min": 10,
+            "max": 10,
+            "stdev": 0.0
+          },
+          "deleted_chunks": {
+            "mean": 10,
+            "min": 10,
+            "max": 10,
+            "stdev": 0.0
+          },
+          "processing_time": {
+            "mean": 3.814697265625e-07,
+            "min": 0.0,
+            "max": 9.5367431640625e-07,
+            "stdev": 5.223489356090222e-07
+          },
+          "db_time": {
+            "mean": 6.23682165145874,
+            "min": 6.108513116836548,
+            "max": 6.35615086555481,
+            "stdev": 0.10262116222535554
+          },
+          "api_time": {
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "stdev": 0.0
+          }
+        }
+      }
+    },
+    {
+      "type": "incremental_update",
+      "result": {
+        "files": [
+          "JETLS/JETLS meeting time.md"
+        ],
+        "embedding_model": "gemini",
+        "runs": 5,
+        "raw_results": [
+          {
+            "run": 1,
+            "update_time": 5.865651999999955,
+            "updated_files": 1,
+            "new_chunks": 17,
+            "deleted_chunks": 17,
+            "processing_time": 0,
+            "db_time": 0,
+            "api_time": 19.68891739845276
+          },
+          {
+            "run": 2,
+            "update_time": 4.661056082999949,
+            "updated_files": 1,
+            "new_chunks": 17,
+            "deleted_chunks": 17,
+            "processing_time": 0,
+            "db_time": 0,
+            "api_time": 13.386279344558716
+          },
+          {
+            "run": 3,
+            "update_time": 4.450659209000037,
+            "updated_files": 1,
+            "new_chunks": 17,
+            "deleted_chunks": 17,
+            "processing_time": 0,
+            "db_time": 0,
+            "api_time": 14.31141972541809
+          },
+          {
+            "run": 4,
+            "update_time": 4.910239499999989,
+            "updated_files": 1,
+            "new_chunks": 17,
+            "deleted_chunks": 17,
+            "processing_time": 0,
+            "db_time": 0,
+            "api_time": 17.488229513168335
+          },
+          {
+            "run": 5,
+            "update_time": 4.794798792000051,
+            "updated_files": 1,
+            "new_chunks": 17,
+            "deleted_chunks": 17,
+            "processing_time": 0,
+            "db_time": 0,
+            "api_time": 17.510520935058594
+          }
+        ],
+        "stats": {
+          "update_time": {
+            "mean": 4.936481116799996,
+            "min": 4.450659209000037,
+            "max": 5.865651999999955,
+            "stdev": 0.5468095896063216
+          },
+          "new_chunks": {
+            "mean": 17,
+            "min": 17,
+            "max": 17,
+            "stdev": 0.0
+          },
+          "deleted_chunks": {
+            "mean": 17,
+            "min": 17,
+            "max": 17,
+            "stdev": 0.0
+          },
+          "processing_time": {
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "stdev": 0.0
+          },
+          "db_time": {
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "stdev": 0.0
+          },
+          "api_time": {
+            "mean": 16.477073383331298,
+            "min": 13.386279344558716,
+            "max": 19.68891739845276,
+            "stdev": 2.5811555597587823
+          }
+        }
+      }
+    }
+  ]
+}

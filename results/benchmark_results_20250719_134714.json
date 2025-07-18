@@ -1,0 +1,205 @@
+{
+  "timestamp": "2025-07-19T13:47:14.220607",
+  "results": [
+    {
+      "type": "incremental_update",
+      "result": {
+        "files": [
+          "JETLS/Incremental analysis system.md"
+        ],
+        "embedding_model": "bgem3",
+        "runs": 5,
+        "raw_results": [
+          {
+            "run": 1,
+            "update_time": 1.0066566670000157,
+            "updated_files": 1,
+            "new_chunks": 1,
+            "deleted_chunks": 1,
+            "processing_time": 0.0,
+            "db_time": 0.9013760089874268,
+            "api_time": 0
+          },
+          {
+            "run": 2,
+            "update_time": 0.8120383749999291,
+            "updated_files": 1,
+            "new_chunks": 1,
+            "deleted_chunks": 1,
+            "processing_time": 0.0,
+            "db_time": 0.7944290637969971,
+            "api_time": 0
+          },
+          {
+            "run": 3,
+            "update_time": 0.8340594169999349,
+            "updated_files": 1,
+            "new_chunks": 1,
+            "deleted_chunks": 1,
+            "processing_time": 0.0,
+            "db_time": 0.8163440227508545,
+            "api_time": 0
+          },
+          {
+            "run": 4,
+            "update_time": 0.7943609160000733,
+            "updated_files": 1,
+            "new_chunks": 1,
+            "deleted_chunks": 1,
+            "processing_time": 0.0,
+            "db_time": 0.7768750190734863,
+            "api_time": 0
+          },
+          {
+            "run": 5,
+            "update_time": 0.826384624999946,
+            "updated_files": 1,
+            "new_chunks": 1,
+            "deleted_chunks": 1,
+            "processing_time": 0.0,
+            "db_time": 0.8082931041717529,
+            "api_time": 0
+          }
+        ],
+        "stats": {
+          "update_time": {
+            "mean": 0.8546999999999798,
+            "min": 0.7943609160000733,
+            "max": 1.0066566670000157,
+            "stdev": 0.08628360516246233
+          },
+          "new_chunks": {
+            "mean": 1,
+            "min": 1,
+            "max": 1,
+            "stdev": 0.0
+          },
+          "deleted_chunks": {
+            "mean": 1,
+            "min": 1,
+            "max": 1,
+            "stdev": 0.0
+          },
+          "processing_time": {
+            "mean": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "stdev": 0.0
+          },
+          "db_time": {
+            "mean": 0.8194634437561035,
+            "min": 0.7768750190734863,
+            "max": 0.9013760089874268,
+            "stdev": 0.0481784954972064
+          },
+          "api_time": {
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "stdev": 0.0
+          }
+        }
+      }
+    },
+    {
+      "type": "incremental_update",
+      "result": {
+        "files": [
+          "JETLS/Incremental analysis system.md"
+        ],
+        "embedding_model": "gemini",
+        "runs": 5,
+        "raw_results": [
+          {
+            "run": 1,
+            "update_time": 1.8676509590000023,
+            "updated_files": 1,
+            "new_chunks": 2,
+            "deleted_chunks": 2,
+            "processing_time": 0,
+            "db_time": 0,
+            "api_time": 2.4499316215515137
+          },
+          {
+            "run": 2,
+            "update_time": 1.745187417000011,
+            "updated_files": 1,
+            "new_chunks": 2,
+            "deleted_chunks": 2,
+            "processing_time": 0,
+            "db_time": 0,
+            "api_time": 2.8965282440185547
+          },
+          {
+            "run": 3,
+            "update_time": 0.9659709579999571,
+            "updated_files": 1,
+            "new_chunks": 2,
+            "deleted_chunks": 2,
+            "processing_time": 0,
+            "db_time": 0,
+            "api_time": 1.33962082862854
+          },
+          {
+            "run": 4,
+            "update_time": 1.6933125420000579,
+            "updated_files": 1,
+            "new_chunks": 2,
+            "deleted_chunks": 2,
+            "processing_time": 0,
+            "db_time": 0,
+            "api_time": 2.1960179805755615
+          },
+          {
+            "run": 5,
+            "update_time": 1.8397616249999373,
+            "updated_files": 1,
+            "new_chunks": 2,
+            "deleted_chunks": 2,
+            "processing_time": 0,
+            "db_time": 0,
+            "api_time": 2.43693208694458
+          }
+        ],
+        "stats": {
+          "update_time": {
+            "mean": 1.6223767001999931,
+            "min": 0.9659709579999571,
+            "max": 1.8676509590000023,
+            "stdev": 0.373630342640346
+          },
+          "new_chunks": {
+            "mean": 2,
+            "min": 2,
+            "max": 2,
+            "stdev": 0.0
+          },
+          "deleted_chunks": {
+            "mean": 2,
+            "min": 2,
+            "max": 2,
+            "stdev": 0.0
+          },
+          "processing_time": {
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "stdev": 0.0
+          },
+          "db_time": {
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "stdev": 0.0
+          },
+          "api_time": {
+            "mean": 2.26380615234375,
+            "min": 1.33962082862854,
+            "max": 2.8965282440185547,
+            "stdev": 0.5752534818701278
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+[project]
+name = "obsidian-rag-experiment"
+version = "0.1.0"
+description = "Obsidian RAG experiment with BGE-M3 and Gemini embeddings"
+readme = "README.md"
+requires-python = ">=3.9,<3.12"
+dependencies = [
+    # Core dependencies
+    "chromadb>=0.4.22",
+    "pyyaml>=6.0.1",
+    "python-dotenv>=1.0.0",
+    "tqdm>=4.66.1",
+
+    # BGE-M3 dependencies
+    "FlagEmbedding>=1.2.5",
+    "torch>=2.0.0",
+    "transformers>=4.36.0",
+    "sentence-transformers>=2.2.2",
+
+    # Gemini API dependencies
+    "google-cloud-aiplatform>=1.38.0",
+    "google-auth>=2.25.0",
+    "requests>=2.31.0",
+
+    # Text processing
+    "tiktoken>=0.5.2",
+    "regex>=2023.0.0",  # tiktokenの依存関係
+    "langchain-text-splitters>=0.0.1",
+
+    # Utilities
+    "numpy>=1.24.0",  # ChromaDB 1.0.15 requires numpy 2.x
+    "pandas>=2.1.4",
+    "click>=8.1.7",
+    "rich>=13.7.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "ipython>=8.0.0",
+    "jupyter>=1.0.0",
+    "pytest>=7.0.0",
+]
+
+[tool.uv.sources]
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["scripts"]

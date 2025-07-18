@@ -1,0 +1,2235 @@
+{
+  "timestamp": "2025-07-19T06:49:53.523884",
+  "results": [
+    {
+      "query": "JETLSのincremental analysis systemの実装状況を教えて",
+      "embedding_model": "gemini",
+      "query_model": "なし",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 1.4675487917847931,
+          "search_time": 1.5423048329539597,
+          "answer_time": 0,
+          "total_time": 3.009853624738753,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 1.4245131670031697,
+          "search_time": 1.4420901250559837,
+          "answer_time": 0,
+          "total_time": 2.8666032920591533,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 1.3761922081466764,
+          "search_time": 1.3735982500948012,
+          "answer_time": 0,
+          "total_time": 2.7497904582414776,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 1.3539026658982038,
+          "search_time": 1.3684130830224603,
+          "answer_time": 0,
+          "total_time": 2.722315748920664,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 1.3684847080148757,
+          "search_time": 1.4268928340170532,
+          "answer_time": 0,
+          "total_time": 2.795377542031929,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 1.3981283081695437,
+          "min": 1.3539026658982038,
+          "max": 1.4675487917847931,
+          "stdev": 0.04698725164792329
+        },
+        "search_time": {
+          "mean": 1.4306598250288516,
+          "min": 1.3684130830224603,
+          "max": 1.5423048329539597,
+          "stdev": 0.07024978647468468
+        },
+        "answer_time": null,
+        "total_time": {
+          "mean": 2.8287881331983953,
+          "min": 2.722315748920664,
+          "max": 3.009853624738753,
+          "stdev": 0.11500865981622001
+        }
+      },
+      "config_name": "Gemini 埋め込み（検索のみ）"
+    },
+    {
+      "query": "JETLSのincremental analysis systemの実装状況を教えて",
+      "embedding_model": "bgem3",
+      "query_model": "なし",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 0.42553420807234943,
+          "search_time": 0.12580499984323978,
+          "answer_time": 0,
+          "total_time": 0.5513392079155892,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 0.33052616589702666,
+          "search_time": 0.045201333006843925,
+          "answer_time": 0,
+          "total_time": 0.3757274989038706,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 0.31847033300437033,
+          "search_time": 0.044009167002514005,
+          "answer_time": 0,
+          "total_time": 0.36247950000688434,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 0.31785574997775257,
+          "search_time": 0.045228458009660244,
+          "answer_time": 0,
+          "total_time": 0.3630842079874128,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 0.3126442499924451,
+          "search_time": 0.038520416943356395,
+          "answer_time": 0,
+          "total_time": 0.3511646669358015,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 0.3410061413887888,
+          "min": 0.3126442499924451,
+          "max": 0.42553420807234943,
+          "stdev": 0.04770488473198999
+        },
+        "search_time": {
+          "mean": 0.05975287496112287,
+          "min": 0.038520416943356395,
+          "max": 0.12580499984323978,
+          "stdev": 0.03702793160653192
+        },
+        "answer_time": null,
+        "total_time": {
+          "mean": 0.4007590163499117,
+          "min": 0.3511646669358015,
+          "max": 0.5513392079155892,
+          "stdev": 0.08462458716003222
+        }
+      },
+      "config_name": "BGE-M3 埋め込み（検索のみ）"
+    },
+    {
+      "query": "JETLSのincremental analysis systemの実装状況を教えて",
+      "embedding_model": "gemini",
+      "query_model": "gemini-2.5-flash",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 1.5068759580608457,
+          "search_time": 1.467681499896571,
+          "answer_time": 14.589885374996811,
+          "total_time": 17.564442832954228,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 1.380124625051394,
+          "search_time": 1.5410510420333594,
+          "answer_time": -1,
+          "total_time": 2.9211756670847535,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 1.5081480420194566,
+          "search_time": 1.4403734169900417,
+          "answer_time": 14.32790070795454,
+          "total_time": 17.27642216696404,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 1.3923095418140292,
+          "search_time": 1.429526082938537,
+          "answer_time": 14.340872874949127,
+          "total_time": 17.162708499701694,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 1.4088272089138627,
+          "search_time": 1.4907121669966727,
+          "answer_time": 15.105536167044193,
+          "total_time": 18.005075542954728,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 1.4392570751719176,
+          "min": 1.380124625051394,
+          "max": 1.5081480420194566,
+          "stdev": 0.06313670276167549
+        },
+        "search_time": {
+          "mean": 1.4738688417710364,
+          "min": 1.429526082938537,
+          "max": 1.5410510420333594,
+          "stdev": 0.04450745043908778
+        },
+        "answer_time": {
+          "mean": 14.591048781236168,
+          "min": 14.32790070795454,
+          "max": 15.105536167044193,
+          "stdev": 0.36356270262868806
+        },
+        "total_time": {
+          "mean": 14.585964941931888,
+          "min": 2.9211756670847535,
+          "max": 18.005075542954728,
+          "stdev": 6.528918825467206
+        }
+      },
+      "config_name": "Gemini + Gemini Flash"
+    },
+    {
+      "query": "JETLSのincremental analysis systemの実装状況を教えて",
+      "embedding_model": "gemini",
+      "query_model": "gemma3n:e4b",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 1.4444057079963386,
+          "search_time": 1.482780708000064,
+          "answer_time": 41.519222542177886,
+          "total_time": 44.44640895817429,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 1.4548356251325458,
+          "search_time": 1.5431517499964684,
+          "answer_time": 40.685660999966785,
+          "total_time": 43.6836483750958,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 1.4369250838644803,
+          "search_time": 1.5934474158566445,
+          "answer_time": 33.78754408285022,
+          "total_time": 36.81791658257134,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 1.5329134578350931,
+          "search_time": 0.7235004159156233,
+          "answer_time": 36.10968954209238,
+          "total_time": 38.3661034158431,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 1.4565190409775823,
+          "search_time": 1.4809790421277285,
+          "answer_time": 40.78036979190074,
+          "total_time": 43.71786787500605,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 1.465119783161208,
+          "min": 1.4369250838644803,
+          "max": 1.5329134578350931,
+          "stdev": 0.038728971638248504
+        },
+        "search_time": {
+          "mean": 1.3647718663793058,
+          "min": 0.7235004159156233,
+          "max": 1.5934474158566445,
+          "stdev": 0.36151457694812544
+        },
+        "answer_time": {
+          "mean": 38.5764973917976,
+          "min": 33.78754408285022,
+          "max": 41.519222542177886,
+          "stdev": 3.427260960128644
+        },
+        "total_time": {
+          "mean": 41.406389041338116,
+          "min": 36.81791658257134,
+          "max": 44.44640895817429,
+          "stdev": 3.5379366075402903
+        }
+      },
+      "config_name": "Gemini + Gemma3n"
+    },
+    {
+      "query": "JETLSのincremental analysis systemの実装状況を教えて",
+      "embedding_model": "bgem3",
+      "query_model": "gemini-2.5-flash",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 0.39907791605219245,
+          "search_time": 0.041251415852457285,
+          "answer_time": 11.976689165923744,
+          "total_time": 12.417018497828394,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 0.3625372499227524,
+          "search_time": 0.0518674161285162,
+          "answer_time": 16.038300417130813,
+          "total_time": 16.45270508318208,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 0.3917764581274241,
+          "search_time": 0.03770116693340242,
+          "answer_time": 14.319679582957178,
+          "total_time": 14.749157208018005,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 0.33161049988120794,
+          "search_time": 0.04036695812828839,
+          "answer_time": 12.886369624873623,
+          "total_time": 13.25834708288312,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 0.3328478750772774,
+          "search_time": 0.04536787490360439,
+          "answer_time": 15.486238250043243,
+          "total_time": 15.864454000024125,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 0.36356999981217086,
+          "min": 0.33161049988120794,
+          "max": 0.39907791605219245,
+          "stdev": 0.031712543113081346
+        },
+        "search_time": {
+          "mean": 0.04331096638925373,
+          "min": 0.03770116693340242,
+          "max": 0.0518674161285162,
+          "stdev": 0.0055186612454030315
+        },
+        "answer_time": {
+          "mean": 14.14145540818572,
+          "min": 11.976689165923744,
+          "max": 16.038300417130813,
+          "stdev": 1.7102396720413522
+        },
+        "total_time": {
+          "mean": 14.548336374387144,
+          "min": 12.417018497828394,
+          "max": 16.45270508318208,
+          "stdev": 1.7033572037232656
+        }
+      },
+      "config_name": "BGE-M3 + Gemini Flash"
+    },
+    {
+      "query": "JETLSのincremental analysis systemの実装状況を教えて",
+      "embedding_model": "bgem3",
+      "query_model": "gemma3n:e4b",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 0.3711405829526484,
+          "search_time": 0.04706429108045995,
+          "answer_time": 55.91196937486529,
+          "total_time": 56.3301742488984,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 0.33235137490555644,
+          "search_time": 0.04626150010153651,
+          "answer_time": 66.19740075012669,
+          "total_time": 66.57601362513378,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 0.3205273749772459,
+          "search_time": 0.04026637482456863,
+          "answer_time": 57.54062291607261,
+          "total_time": 57.90141666587442,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 0.34492437494918704,
+          "search_time": 0.04415820795111358,
+          "answer_time": 54.97401391598396,
+          "total_time": 55.36309649888426,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 0.31185354106128216,
+          "search_time": 0.03808983298949897,
+          "answer_time": 50.33344191708602,
+          "total_time": 50.6833852911368,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 0.336159449769184,
+          "min": 0.31185354106128216,
+          "max": 0.3711405829526484,
+          "stdev": 0.023184822550512015
+        },
+        "search_time": {
+          "mean": 0.04316804138943553,
+          "min": 0.03808983298949897,
+          "max": 0.04706429108045995,
+          "stdev": 0.0038709994731657934
+        },
+        "answer_time": {
+          "mean": 56.99148977482692,
+          "min": 50.33344191708602,
+          "max": 66.19740075012669,
+          "stdev": 5.801196396065098
+        },
+        "total_time": {
+          "mean": 57.370817265985536,
+          "min": 50.6833852911368,
+          "max": 66.57601362513378,
+          "stdev": 5.806306974306684
+        }
+      },
+      "config_name": "BGE-M3 + Gemma3n"
+    },
+    {
+      "query": "JETLSのincremental analysis system、特にそのcode repository infrastructureの実装状況を教えて",
+      "embedding_model": "gemini",
+      "query_model": "なし",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 1.8325767919886857,
+          "search_time": 1.4408057078253478,
+          "answer_time": 0,
+          "total_time": 3.2733824998140335,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 1.4348210419993848,
+          "search_time": 1.4856128750834614,
+          "answer_time": 0,
+          "total_time": 2.920433917082846,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 1.3952609580010176,
+          "search_time": 1.4292449168860912,
+          "answer_time": 0,
+          "total_time": 2.824505874887109,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 1.49115858389996,
+          "search_time": 1.508544292068109,
+          "answer_time": 0,
+          "total_time": 2.999702875968069,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 1.4193195418920368,
+          "search_time": 1.4185936669819057,
+          "answer_time": 0,
+          "total_time": 2.8379132088739425,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 1.514627383556217,
+          "min": 1.3952609580010176,
+          "max": 1.8325767919886857,
+          "stdev": 0.18120678192679318
+        },
+        "search_time": {
+          "mean": 1.456560291768983,
+          "min": 1.4185936669819057,
+          "max": 1.508544292068109,
+          "stdev": 0.03867230954538695
+        },
+        "answer_time": null,
+        "total_time": {
+          "mean": 2.9711876753252,
+          "min": 2.824505874887109,
+          "max": 3.2733824998140335,
+          "stdev": 0.1830221343027194
+        }
+      },
+      "config_name": "Gemini 埋め込み（検索のみ）"
+    },
+    {
+      "query": "JETLSのincremental analysis system、特にそのcode repository infrastructureの実装状況を教えて",
+      "embedding_model": "bgem3",
+      "query_model": "なし",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 0.5912066251039505,
+          "search_time": 0.04091379186138511,
+          "answer_time": 0,
+          "total_time": 0.6321204169653356,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 0.3185659998562187,
+          "search_time": 0.041480000130832195,
+          "answer_time": 0,
+          "total_time": 0.3600459999870509,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 0.3376145421061665,
+          "search_time": 0.0592714580707252,
+          "answer_time": 0,
+          "total_time": 0.3968860001768917,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 0.32984658400528133,
+          "search_time": 0.042728374944999814,
+          "answer_time": 0,
+          "total_time": 0.37257495895028114,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 0.3333393749780953,
+          "search_time": 0.04216345911845565,
+          "answer_time": 0,
+          "total_time": 0.37550283409655094,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 0.38211462520994244,
+          "min": 0.3185659998562187,
+          "max": 0.5912066251039505,
+          "stdev": 0.11709944787104914
+        },
+        "search_time": {
+          "mean": 0.045311416825279595,
+          "min": 0.04091379186138511,
+          "max": 0.0592714580707252,
+          "stdev": 0.00783395420371048
+        },
+        "answer_time": null,
+        "total_time": {
+          "mean": 0.42742604203522205,
+          "min": 0.3600459999870509,
+          "max": 0.6321204169653356,
+          "stdev": 0.11519246089630318
+        }
+      },
+      "config_name": "BGE-M3 埋め込み（検索のみ）"
+    },
+    {
+      "query": "JETLSのincremental analysis system、特にそのcode repository infrastructureの実装状況を教えて",
+      "embedding_model": "gemini",
+      "query_model": "gemini-2.5-flash",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 1.4548680000007153,
+          "search_time": 1.401580167002976,
+          "answer_time": 11.635954208904877,
+          "total_time": 14.492402375908569,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 1.4343472921755165,
+          "search_time": 1.4553376669064164,
+          "answer_time": 11.441253874916583,
+          "total_time": 14.330938833998516,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 1.4424954999703914,
+          "search_time": 1.4187418329529464,
+          "answer_time": 12.121264375047758,
+          "total_time": 14.982501707971096,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 1.443243999965489,
+          "search_time": 1.4129524170421064,
+          "answer_time": 15.390108124818653,
+          "total_time": 18.246304541826248,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 1.4321019588969648,
+          "search_time": 1.3918218750040978,
+          "answer_time": 11.018588959006593,
+          "total_time": 13.842512792907655,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 1.4414113502018153,
+          "min": 1.4321019588969648,
+          "max": 1.4548680000007153,
+          "stdev": 0.0089747018328323
+        },
+        "search_time": {
+          "mean": 1.4160867917817086,
+          "min": 1.3918218750040978,
+          "max": 1.4553376669064164,
+          "stdev": 0.024273097738957573
+        },
+        "answer_time": {
+          "mean": 12.321433908538893,
+          "min": 11.018588959006593,
+          "max": 15.390108124818653,
+          "stdev": 1.7605988725798525
+        },
+        "total_time": {
+          "mean": 15.178932050522416,
+          "min": 13.842512792907655,
+          "max": 18.246304541826248,
+          "stdev": 1.7623699101920856
+        }
+      },
+      "config_name": "Gemini + Gemini Flash"
+    },
+    {
+      "query": "JETLSのincremental analysis system、特にそのcode repository infrastructureの実装状況を教えて",
+      "embedding_model": "gemini",
+      "query_model": "gemma3n:e4b",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 1.442140124971047,
+          "search_time": 1.4524109170306474,
+          "answer_time": 46.428075790870935,
+          "total_time": 49.32262683287263,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 1.4423483330756426,
+          "search_time": 1.4479908749926835,
+          "answer_time": 41.29137337487191,
+          "total_time": 44.181712582940236,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 1.4582170830108225,
+          "search_time": 1.4696855419315398,
+          "answer_time": 46.24251108313911,
+          "total_time": 49.17041370808147,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 1.441186583135277,
+          "search_time": 1.4752240001689643,
+          "answer_time": 44.79474424989894,
+          "total_time": 47.71115483320318,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 1.6515559169929475,
+          "search_time": 1.5074473340064287,
+          "answer_time": 46.13732116599567,
+          "total_time": 49.29632441699505,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 1.4870896082371474,
+          "min": 1.441186583135277,
+          "max": 1.6515559169929475,
+          "stdev": 0.092211868665553
+        },
+        "search_time": {
+          "mean": 1.4705517336260527,
+          "min": 1.4479908749926835,
+          "max": 1.5074473340064287,
+          "stdev": 0.02356876778254995
+        },
+        "answer_time": {
+          "mean": 44.978805132955316,
+          "min": 41.29137337487191,
+          "max": 46.428075790870935,
+          "stdev": 2.160470373924983
+        },
+        "total_time": {
+          "mean": 47.93644647481851,
+          "min": 44.181712582940236,
+          "max": 49.32262683287263,
+          "stdev": 2.2046667581542274
+        }
+      },
+      "config_name": "Gemini + Gemma3n"
+    },
+    {
+      "query": "JETLSのincremental analysis system、特にそのcode repository infrastructureの実装状況を教えて",
+      "embedding_model": "bgem3",
+      "query_model": "gemini-2.5-flash",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 0.4907224169000983,
+          "search_time": 0.04864787496626377,
+          "answer_time": 11.899438334163278,
+          "total_time": 12.43880862602964,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 0.38023137487471104,
+          "search_time": 0.04677687492221594,
+          "answer_time": 12.490367874968797,
+          "total_time": 12.917376124765724,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 0.40603654203005135,
+          "search_time": 0.0451964579988271,
+          "answer_time": 11.572779292007908,
+          "total_time": 12.024012292036787,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 0.41981658316217363,
+          "search_time": 0.044652000069618225,
+          "answer_time": 11.466161374934018,
+          "total_time": 11.93062995816581,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 0.38828775007277727,
+          "search_time": 0.04552124999463558,
+          "answer_time": 13.11367554217577,
+          "total_time": 13.547484542243183,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 0.4170189334079623,
+          "min": 0.38023137487471104,
+          "max": 0.4907224169000983,
+          "stdev": 0.043987067991847956
+        },
+        "search_time": {
+          "mean": 0.046158891590312126,
+          "min": 0.044652000069618225,
+          "max": 0.04864787496626377,
+          "stdev": 0.0015953470564401856
+        },
+        "answer_time": {
+          "mean": 12.108484483649955,
+          "min": 11.466161374934018,
+          "max": 13.11367554217577,
+          "stdev": 0.6891123474556565
+        },
+        "total_time": {
+          "mean": 12.571662308648229,
+          "min": 11.93062995816581,
+          "max": 13.547484542243183,
+          "stdev": 0.6708651485726499
+        }
+      },
+      "config_name": "BGE-M3 + Gemini Flash"
+    },
+    {
+      "query": "JETLSのincremental analysis system、特にそのcode repository infrastructureの実装状況を教えて",
+      "embedding_model": "bgem3",
+      "query_model": "gemma3n:e4b",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 0.47970516607165337,
+          "search_time": 0.04708983306773007,
+          "answer_time": 50.63884608307853,
+          "total_time": 51.16564108221792,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 0.36568520800210536,
+          "search_time": 0.04462287505157292,
+          "answer_time": 45.277386541944,
+          "total_time": 45.687694624997675,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 0.37778241699561477,
+          "search_time": 0.045003166887909174,
+          "answer_time": 55.22645358298905,
+          "total_time": 55.649239166872576,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 0.3787497079465538,
+          "search_time": 0.045111124869436026,
+          "answer_time": 58.42942791595124,
+          "total_time": 58.85328874876723,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 0.39293745905160904,
+          "search_time": 0.044719374971464276,
+          "answer_time": 56.43034145794809,
+          "total_time": 56.86799829197116,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 0.39897199161350727,
+          "min": 0.36568520800210536,
+          "max": 0.47970516607165337,
+          "stdev": 0.04615249135668714
+        },
+        "search_time": {
+          "mean": 0.04530927496962249,
+          "min": 0.04462287505157292,
+          "max": 0.04708983306773007,
+          "stdev": 0.0010151945153462107
+        },
+        "answer_time": {
+          "mean": 53.20049111638218,
+          "min": 45.277386541944,
+          "max": 58.42942791595124,
+          "stdev": 5.272946248849717
+        },
+        "total_time": {
+          "mean": 53.644772382965314,
+          "min": 45.687694624997675,
+          "max": 58.85328874876723,
+          "stdev": 5.267753162729563
+        }
+      },
+      "config_name": "BGE-M3 + Gemma3n"
+    },
+    {
+      "query": "Please tell me about the progress status of the EscapeAnalysis project",
+      "embedding_model": "gemini",
+      "query_model": "なし",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 1.6486227500718087,
+          "search_time": 1.53740429203026,
+          "answer_time": 0,
+          "total_time": 3.1860270421020687,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 1.523298874963075,
+          "search_time": 1.5498886660207063,
+          "answer_time": 0,
+          "total_time": 3.073187540983781,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 1.5221273750066757,
+          "search_time": 1.523110416950658,
+          "answer_time": 0,
+          "total_time": 3.0452377919573337,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 1.508035833016038,
+          "search_time": 1.50903470790945,
+          "answer_time": 0,
+          "total_time": 3.017070540925488,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 1.4602795829996467,
+          "search_time": 0.8932993749622256,
+          "answer_time": 0,
+          "total_time": 2.353578957961872,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 1.5324728832114487,
+          "min": 1.4602795829996467,
+          "max": 1.6486227500718087,
+          "stdev": 0.06980513153909247
+        },
+        "search_time": {
+          "mean": 1.4025474915746599,
+          "min": 0.8932993749622256,
+          "max": 1.5498886660207063,
+          "stdev": 0.2850896213506922
+        },
+        "answer_time": null,
+        "total_time": {
+          "mean": 2.9350203747861086,
+          "min": 2.353578957961872,
+          "max": 3.1860270421020687,
+          "stdev": 0.331303766527839
+        }
+      },
+      "config_name": "Gemini 埋め込み（検索のみ）"
+    },
+    {
+      "query": "Please tell me about the progress status of the EscapeAnalysis project",
+      "embedding_model": "bgem3",
+      "query_model": "なし",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 0.5156631248537451,
+          "search_time": 0.04534116690047085,
+          "answer_time": 0,
+          "total_time": 0.561004291754216,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 0.4258113750256598,
+          "search_time": 0.04387308284640312,
+          "answer_time": 0,
+          "total_time": 0.4696844578720629,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 0.3855818340089172,
+          "search_time": 0.04201262490823865,
+          "answer_time": 0,
+          "total_time": 0.42759445891715586,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 0.381939249811694,
+          "search_time": 0.042087791953235865,
+          "answer_time": 0,
+          "total_time": 0.4240270417649299,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 0.39157145796343684,
+          "search_time": 0.042364749824628234,
+          "answer_time": 0,
+          "total_time": 0.4339362077880651,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 0.4201134083326906,
+          "min": 0.381939249811694,
+          "max": 0.5156631248537451,
+          "stdev": 0.05618397032658307
+        },
+        "search_time": {
+          "mean": 0.043135883286595345,
+          "min": 0.04201262490823865,
+          "max": 0.04534116690047085,
+          "stdev": 0.001445820757596334
+        },
+        "answer_time": null,
+        "total_time": {
+          "mean": 0.46324929161928596,
+          "min": 0.4240270417649299,
+          "max": 0.561004291754216,
+          "stdev": 0.05758984345878978
+        }
+      },
+      "config_name": "BGE-M3 埋め込み（検索のみ）"
+    },
+    {
+      "query": "Please tell me about the progress status of the EscapeAnalysis project",
+      "embedding_model": "gemini",
+      "query_model": "gemini-2.5-flash",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 1.5889351249206811,
+          "search_time": 1.4856123749632388,
+          "answer_time": 12.048408458009362,
+          "total_time": 15.122955957893282,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 1.5032817090395838,
+          "search_time": 1.492757000029087,
+          "answer_time": 12.774456582963467,
+          "total_time": 15.770495292032138,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 0.7472422500140965,
+          "search_time": 1.487385499989614,
+          "answer_time": 13.46228504087776,
+          "total_time": 15.69691279088147,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 1.4831674171146005,
+          "search_time": 1.501938167028129,
+          "answer_time": 10.12780358409509,
+          "total_time": 13.11290916823782,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 1.4786112499423325,
+          "search_time": 1.4958680840209126,
+          "answer_time": 12.739997082855552,
+          "total_time": 15.714476416818798,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 1.360247550206259,
+          "min": 0.7472422500140965,
+          "max": 1.5889351249206811,
+          "stdev": 0.3455616929658076
+        },
+        "search_time": {
+          "mean": 1.4927122252061964,
+          "min": 1.4856123749632388,
+          "max": 1.501938167028129,
+          "stdev": 0.006592824264878341
+        },
+        "answer_time": {
+          "mean": 12.230590149760246,
+          "min": 10.12780358409509,
+          "max": 13.46228504087776,
+          "stdev": 1.2774251382181674
+        },
+        "total_time": {
+          "mean": 15.0835499251727,
+          "min": 13.11290916823782,
+          "max": 15.770495292032138,
+          "stdev": 1.1326025349001108
+        }
+      },
+      "config_name": "Gemini + Gemini Flash"
+    },
+    {
+      "query": "Please tell me about the progress status of the EscapeAnalysis project",
+      "embedding_model": "gemini",
+      "query_model": "gemma3n:e4b",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 1.5015960419550538,
+          "search_time": 0.6923130000941455,
+          "answer_time": 57.326144999824464,
+          "total_time": 59.520054041873664,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 0.7467411670368165,
+          "search_time": 1.5009878750424832,
+          "answer_time": 74.80543962516822,
+          "total_time": 77.05316866724752,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 1.4801249580923468,
+          "search_time": 1.4958754580002278,
+          "answer_time": 62.30436333385296,
+          "total_time": 65.28036374994554,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 1.507086707977578,
+          "search_time": 1.4418781660497189,
+          "answer_time": 62.71225129114464,
+          "total_time": 65.66121616517194,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 0.7432734169997275,
+          "search_time": 1.580884125083685,
+          "answer_time": 58.96189762512222,
+          "total_time": 61.28605516720563,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 1.1957644584123046,
+          "min": 0.7432734169997275,
+          "max": 1.507086707977578,
+          "stdev": 0.4116082643428234
+        },
+        "search_time": {
+          "mean": 1.3423877248540521,
+          "min": 0.6923130000941455,
+          "max": 1.580884125083685,
+          "stdev": 0.3667725863698153
+        },
+        "answer_time": {
+          "mean": 63.2220193750225,
+          "min": 57.326144999824464,
+          "max": 74.80543962516822,
+          "stdev": 6.859073420893154
+        },
+        "total_time": {
+          "mean": 65.76017155828886,
+          "min": 59.520054041873664,
+          "max": 77.05316866724752,
+          "stdev": 6.832433232483032
+        }
+      },
+      "config_name": "Gemini + Gemma3n"
+    },
+    {
+      "query": "Please tell me about the progress status of the EscapeAnalysis project",
+      "embedding_model": "bgem3",
+      "query_model": "gemini-2.5-flash",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 0.4602720409166068,
+          "search_time": 0.055026082787662745,
+          "answer_time": 8.933188332943246,
+          "total_time": 9.448486456647515,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 0.3852377498988062,
+          "search_time": 0.04154299991205335,
+          "answer_time": 7.484449208015576,
+          "total_time": 7.911229957826436,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 0.3885064588394016,
+          "search_time": 0.042837625136598945,
+          "answer_time": 12.657721042167395,
+          "total_time": 13.089065126143396,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 0.4036786248907447,
+          "search_time": 0.04125012503936887,
+          "answer_time": 8.06162212509662,
+          "total_time": 8.506550875026733,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 0.3810272919945419,
+          "search_time": 0.04028662503696978,
+          "answer_time": 7.530292582930997,
+          "total_time": 7.951606499962509,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 0.40374443330802023,
+          "min": 0.3810272919945419,
+          "max": 0.4602720409166068,
+          "stdev": 0.03273429569606551
+        },
+        "search_time": {
+          "mean": 0.044188691582530734,
+          "min": 0.04028662503696978,
+          "max": 0.055026082787662745,
+          "stdev": 0.0061264877732719976
+        },
+        "answer_time": {
+          "mean": 8.933454658230767,
+          "min": 7.484449208015576,
+          "max": 12.657721042167395,
+          "stdev": 2.1621015667397288
+        },
+        "total_time": {
+          "mean": 9.381387783121317,
+          "min": 7.911229957826436,
+          "max": 13.089065126143396,
+          "stdev": 2.163466643876198
+        }
+      },
+      "config_name": "BGE-M3 + Gemini Flash"
+    },
+    {
+      "query": "Please tell me about the progress status of the EscapeAnalysis project",
+      "embedding_model": "bgem3",
+      "query_model": "gemma3n:e4b",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 0.3955545830540359,
+          "search_time": 0.042145750019699335,
+          "answer_time": 48.608450040919706,
+          "total_time": 49.04615037399344,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 0.3553505421150476,
+          "search_time": 0.039928375044837594,
+          "answer_time": 45.28337499988265,
+          "total_time": 45.67865391704254,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 0.3366292498540133,
+          "search_time": 0.0532863331027329,
+          "answer_time": 39.18345279083587,
+          "total_time": 39.57336837379262,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 0.35628612502478063,
+          "search_time": 0.03958933288231492,
+          "answer_time": 39.30009874980897,
+          "total_time": 39.69597420771606,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 0.34382491605356336,
+          "search_time": 0.042229084065184,
+          "answer_time": 49.191814000019804,
+          "total_time": 49.57786800013855,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 0.35752908322028815,
+          "min": 0.3366292498540133,
+          "max": 0.3955545830540359,
+          "stdev": 0.02278616277755507
+        },
+        "search_time": {
+          "mean": 0.043435775022953746,
+          "min": 0.03958933288231492,
+          "max": 0.0532863331027329,
+          "stdev": 0.005640273349037671
+        },
+        "answer_time": {
+          "mean": 44.3134381162934,
+          "min": 39.18345279083587,
+          "max": 49.191814000019804,
+          "stdev": 4.864071784439053
+        },
+        "total_time": {
+          "mean": 44.71440297453664,
+          "min": 39.57336837379262,
+          "max": 49.57786800013855,
+          "stdev": 4.8724216648853576
+        }
+      },
+      "config_name": "BGE-M3 + Gemma3n"
+    },
+    {
+      "query": "この人の仕事を一言で表すとどんなもの?",
+      "embedding_model": "gemini",
+      "query_model": "なし",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 1.642710000043735,
+          "search_time": 1.4769401249941438,
+          "answer_time": 0,
+          "total_time": 3.1196501250378788,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 0.7522435002028942,
+          "search_time": 0.773473417153582,
+          "answer_time": 0,
+          "total_time": 1.5257169173564762,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 1.432899999897927,
+          "search_time": 0.7665848331525922,
+          "answer_time": 0,
+          "total_time": 2.1994848330505192,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 1.4607232089620084,
+          "search_time": 0.7262219998519868,
+          "answer_time": 0,
+          "total_time": 2.186945208813995,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 1.4906460419297218,
+          "search_time": 1.4853776250965893,
+          "answer_time": 0,
+          "total_time": 2.976023667026311,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 1.3558445502072574,
+          "min": 0.7522435002028942,
+          "max": 1.642710000043735,
+          "stdev": 0.3470354922180449
+        },
+        "search_time": {
+          "mean": 1.0457196000497788,
+          "min": 0.7262219998519868,
+          "max": 1.4853776250965893,
+          "stdev": 0.3979206072967948
+        },
+        "answer_time": null,
+        "total_time": {
+          "mean": 2.401564150257036,
+          "min": 1.5257169173564762,
+          "max": 3.1196501250378788,
+          "stdev": 0.6518544545050093
+        }
+      },
+      "config_name": "Gemini 埋め込み（検索のみ）"
+    },
+    {
+      "query": "この人の仕事を一言で表すとどんなもの?",
+      "embedding_model": "bgem3",
+      "query_model": "なし",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 1.2393786248285323,
+          "search_time": 0.04082645894959569,
+          "answer_time": 0,
+          "total_time": 1.280205083778128,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 0.35483179218135774,
+          "search_time": 0.04070854210294783,
+          "answer_time": 0,
+          "total_time": 0.3955403342843056,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 0.36686537484638393,
+          "search_time": 0.04034904204308987,
+          "answer_time": 0,
+          "total_time": 0.4072144168894738,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 0.33997225016355515,
+          "search_time": 0.050866875099018216,
+          "answer_time": 0,
+          "total_time": 0.39083912526257336,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 0.3537918340880424,
+          "search_time": 0.04011450009420514,
+          "answer_time": 0,
+          "total_time": 0.3939063341822475,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 0.5309679752215744,
+          "min": 0.33997225016355515,
+          "max": 1.2393786248285323,
+          "stdev": 0.3961281417924748
+        },
+        "search_time": {
+          "mean": 0.04257308365777135,
+          "min": 0.04011450009420514,
+          "max": 0.050866875099018216,
+          "stdev": 0.004645029165534004
+        },
+        "answer_time": null,
+        "total_time": {
+          "mean": 0.5735410588793457,
+          "min": 0.39083912526257336,
+          "max": 1.280205083778128,
+          "stdev": 0.39508590355213985
+        }
+      },
+      "config_name": "BGE-M3 埋め込み（検索のみ）"
+    },
+    {
+      "query": "この人の仕事を一言で表すとどんなもの?",
+      "embedding_model": "gemini",
+      "query_model": "gemini-2.5-flash",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 1.5593954999931157,
+          "search_time": 1.4531629160046577,
+          "answer_time": 9.897121125133708,
+          "total_time": 12.909679541131482,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 1.52812166698277,
+          "search_time": 1.395308499922976,
+          "answer_time": 8.419212708016858,
+          "total_time": 11.342642874922603,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 1.4240703340619802,
+          "search_time": 1.4417952080257237,
+          "answer_time": 9.910276332870126,
+          "total_time": 12.77614187495783,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 0.7131112089846283,
+          "search_time": 1.4683282091282308,
+          "answer_time": 9.678552292054519,
+          "total_time": 11.859991710167378,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 0.7110943750012666,
+          "search_time": 1.5094312499277294,
+          "answer_time": 5.489540125010535,
+          "total_time": 7.710065749939531,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 1.1871586170047521,
+          "min": 0.7110943750012666,
+          "max": 1.5593954999931157,
+          "stdev": 0.4365493579628654
+        },
+        "search_time": {
+          "mean": 1.4536052166018636,
+          "min": 1.395308499922976,
+          "max": 1.5094312499277294,
+          "stdev": 0.04144723034702509
+        },
+        "answer_time": {
+          "mean": 8.67894051661715,
+          "min": 5.489540125010535,
+          "max": 9.910276332870126,
+          "stdev": 1.8867371956294643
+        },
+        "total_time": {
+          "mean": 11.319704350223764,
+          "min": 7.710065749939531,
+          "max": 12.909679541131482,
+          "stdev": 2.119620178419216
+        }
+      },
+      "config_name": "Gemini + Gemini Flash"
+    },
+    {
+      "query": "この人の仕事を一言で表すとどんなもの?",
+      "embedding_model": "gemini",
+      "query_model": "gemma3n:e4b",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 1.513478749897331,
+          "search_time": 1.5820133341476321,
+          "answer_time": 30.187601834069937,
+          "total_time": 33.2830939181149,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 1.6673763750586659,
+          "search_time": 1.5474687919486314,
+          "answer_time": 27.874367458047345,
+          "total_time": 31.089212625054643,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 1.7139062080532312,
+          "search_time": 1.5349039158318192,
+          "answer_time": 29.124554915819317,
+          "total_time": 32.37336503970437,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 1.4457074999809265,
+          "search_time": 1.5341732499655336,
+          "answer_time": 28.975514749996364,
+          "total_time": 31.955395499942824,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 1.4923060000874102,
+          "search_time": 1.5677196248434484,
+          "answer_time": 28.20559945795685,
+          "total_time": 31.26562508288771,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 1.566554966615513,
+          "min": 1.4457074999809265,
+          "max": 1.7139062080532312,
+          "stdev": 0.11705922513550783
+        },
+        "search_time": {
+          "mean": 1.553255783347413,
+          "min": 1.5341732499655336,
+          "max": 1.5820133341476321,
+          "stdev": 0.021039384674222533
+        },
+        "answer_time": {
+          "mean": 28.87352768317796,
+          "min": 27.874367458047345,
+          "max": 30.187601834069937,
+          "stdev": 0.9006464590640371
+        },
+        "total_time": {
+          "mean": 31.993338433140888,
+          "min": 31.089212625054643,
+          "max": 33.2830939181149,
+          "stdev": 0.8883044658056
+        }
+      },
+      "config_name": "Gemini + Gemma3n"
+    },
+    {
+      "query": "この人の仕事を一言で表すとどんなもの?",
+      "embedding_model": "bgem3",
+      "query_model": "gemini-2.5-flash",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 0.835665584076196,
+          "search_time": 0.04174629086628556,
+          "answer_time": 11.754549250006676,
+          "total_time": 12.631961124949157,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 0.3747075831051916,
+          "search_time": 0.04718758398666978,
+          "answer_time": 16.230541415978223,
+          "total_time": 16.652436583070084,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 0.36153724999167025,
+          "search_time": 0.053719290997833014,
+          "answer_time": 11.03784062503837,
+          "total_time": 11.453097166027874,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 0.36356966686435044,
+          "search_time": 0.039659792091697454,
+          "answer_time": 15.573579334188253,
+          "total_time": 15.9768087931443,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 0.35945212515071034,
+          "search_time": 0.05114266602322459,
+          "answer_time": 12.465830625034869,
+          "total_time": 12.876425416208804,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 0.4589864418376237,
+          "min": 0.35945212515071034,
+          "max": 0.835665584076196,
+          "stdev": 0.2106524912995858
+        },
+        "search_time": {
+          "mean": 0.04669112479314208,
+          "min": 0.039659792091697454,
+          "max": 0.053719290997833014,
+          "stdev": 0.0059864186576223995
+        },
+        "answer_time": {
+          "mean": 13.412468250049278,
+          "min": 11.03784062503837,
+          "max": 16.230541415978223,
+          "stdev": 2.339637367615826
+        },
+        "total_time": {
+          "mean": 13.918145816680044,
+          "min": 11.453097166027874,
+          "max": 16.652436583070084,
+          "stdev": 2.2655218245424953
+        }
+      },
+      "config_name": "BGE-M3 + Gemini Flash"
+    },
+    {
+      "query": "この人の仕事を一言で表すとどんなもの?",
+      "embedding_model": "bgem3",
+      "query_model": "gemma3n:e4b",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 0.5007093329913914,
+          "search_time": 0.059842290822416544,
+          "answer_time": 32.41948879091069,
+          "total_time": 32.9800404147245,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 0.34364058310166,
+          "search_time": 0.04166475008241832,
+          "answer_time": 31.615303124999627,
+          "total_time": 32.000608458183706,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 0.34309524996206164,
+          "search_time": 0.041808333015069366,
+          "answer_time": 34.23125629196875,
+          "total_time": 34.61615987494588,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 0.3439902081154287,
+          "search_time": 0.04114633286371827,
+          "answer_time": 32.97785433311947,
+          "total_time": 33.362990874098614,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 0.37681558285839856,
+          "search_time": 0.03871916700154543,
+          "answer_time": 31.45747641590424,
+          "total_time": 31.873011165764183,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 0.38165019140578804,
+          "min": 0.34309524996206164,
+          "max": 0.5007093329913914,
+          "stdev": 0.0680954124914076
+        },
+        "search_time": {
+          "mean": 0.04463617475703359,
+          "min": 0.03871916700154543,
+          "max": 0.059842290822416544,
+          "stdev": 0.008591303692211836
+        },
+        "answer_time": {
+          "mean": 32.54027579138055,
+          "min": 31.45747641590424,
+          "max": 34.23125629196875,
+          "stdev": 1.1284401240347335
+        },
+        "total_time": {
+          "mean": 32.96656215754338,
+          "min": 31.873011165764183,
+          "max": 34.61615987494588,
+          "stdev": 1.1188644177148668
+        }
+      },
+      "config_name": "BGE-M3 + Gemma3n"
+    },
+    {
+      "query": "ChromaDBの使い方を教えて",
+      "embedding_model": "gemini",
+      "query_model": "なし",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 1.7365131669212133,
+          "search_time": 1.5502180841285735,
+          "answer_time": 0,
+          "total_time": 3.286731251049787,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 1.5237125421408564,
+          "search_time": 1.5395137500017881,
+          "answer_time": 0,
+          "total_time": 3.0632262921426445,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 1.488271749811247,
+          "search_time": 1.513700250070542,
+          "answer_time": 0,
+          "total_time": 3.001971999881789,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 1.487795083783567,
+          "search_time": 1.558412249898538,
+          "answer_time": 0,
+          "total_time": 3.046207333682105,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 1.533401875058189,
+          "search_time": 1.5080170829314739,
+          "answer_time": 0,
+          "total_time": 3.041418957989663,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 1.5539388835430146,
+          "min": 1.487795083783567,
+          "max": 1.7365131669212133,
+          "stdev": 0.10411045106315236
+        },
+        "search_time": {
+          "mean": 1.533972283406183,
+          "min": 1.5080170829314739,
+          "max": 1.558412249898538,
+          "stdev": 0.022229336599035886
+        },
+        "answer_time": null,
+        "total_time": {
+          "mean": 3.0879111669491976,
+          "min": 3.001971999881789,
+          "max": 3.286731251049787,
+          "stdev": 0.11338545379073876
+        }
+      },
+      "config_name": "Gemini 埋め込み（検索のみ）"
+    },
+    {
+      "query": "ChromaDBの使い方を教えて",
+      "embedding_model": "bgem3",
+      "query_model": "なし",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 0.45896729198284447,
+          "search_time": 0.05104058305732906,
+          "answer_time": 0,
+          "total_time": 0.5100078750401735,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 0.3669682911131531,
+          "search_time": 0.04194887517951429,
+          "answer_time": 0,
+          "total_time": 0.4089171662926674,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 0.3547032920178026,
+          "search_time": 0.04274566704407334,
+          "answer_time": 0,
+          "total_time": 0.39744895906187594,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 0.35150112491101027,
+          "search_time": 0.05819291598163545,
+          "answer_time": 0,
+          "total_time": 0.4096940408926457,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 0.3928532500285655,
+          "search_time": 0.04194845794700086,
+          "answer_time": 0,
+          "total_time": 0.4348017079755664,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 0.3849986500106752,
+          "min": 0.35150112491101027,
+          "max": 0.45896729198284447,
+          "stdev": 0.044435462983805095
+        },
+        "search_time": {
+          "mean": 0.0471752998419106,
+          "min": 0.04194845794700086,
+          "max": 0.05819291598163545,
+          "stdev": 0.007255779031356398
+        },
+        "answer_time": null,
+        "total_time": {
+          "mean": 0.4321739498525858,
+          "min": 0.39744895906187594,
+          "max": 0.5100078750401735,
+          "stdev": 0.04559899751276026
+        }
+      },
+      "config_name": "BGE-M3 埋め込み（検索のみ）"
+    },
+    {
+      "query": "ChromaDBの使い方を教えて",
+      "embedding_model": "gemini",
+      "query_model": "gemini-2.5-flash",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 1.4590142499655485,
+          "search_time": 1.5091416670475155,
+          "answer_time": 3.004303500056267,
+          "total_time": 5.972459417069331,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 1.539255625102669,
+          "search_time": 1.531086916103959,
+          "answer_time": 4.185391665901989,
+          "total_time": 7.255734207108617,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 1.5292245829477906,
+          "search_time": 1.5485555420164019,
+          "answer_time": 2.853626416064799,
+          "total_time": 5.931406541028991,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 1.5120716248638928,
+          "search_time": 1.511553917080164,
+          "answer_time": 2.267359583172947,
+          "total_time": 5.290985125117004,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 2.2047790409997106,
+          "search_time": 1.5402512501459569,
+          "answer_time": 6.4773079578299075,
+          "total_time": 10.222338248975575,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 1.6488690247759223,
+          "min": 1.4590142499655485,
+          "max": 2.2047790409997106,
+          "stdev": 0.3122996158047651
+        },
+        "search_time": {
+          "mean": 1.5281178584787996,
+          "min": 1.5091416670475155,
+          "max": 1.5485555420164019,
+          "stdev": 0.01737953826204478
+        },
+        "answer_time": {
+          "mean": 3.757597824605182,
+          "min": 2.267359583172947,
+          "max": 6.4773079578299075,
+          "stdev": 1.6722183950145284
+        },
+        "total_time": {
+          "mean": 6.934584707859903,
+          "min": 5.290985125117004,
+          "max": 10.222338248975575,
+          "stdev": 1.971416460692923
+        }
+      },
+      "config_name": "Gemini + Gemini Flash"
+    },
+    {
+      "query": "ChromaDBの使い方を教えて",
+      "embedding_model": "gemini",
+      "query_model": "gemma3n:e4b",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 1.525248666992411,
+          "search_time": 1.5819106658454984,
+          "answer_time": 63.324474417138845,
+          "total_time": 66.43163374997675,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 1.5349537909496576,
+          "search_time": 1.549773707985878,
+          "answer_time": 51.01286399993114,
+          "total_time": 54.09759149886668,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 1.5407462499570101,
+          "search_time": 1.4927030419930816,
+          "answer_time": 51.7837143340148,
+          "total_time": 54.817163625964895,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 1.5538557921536267,
+          "search_time": 1.5430154588539153,
+          "answer_time": 52.380789584014565,
+          "total_time": 55.47766083502211,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 1.5266777919605374,
+          "search_time": 1.5201354168821126,
+          "answer_time": 43.909582667052746,
+          "total_time": 46.956395875895396,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 1.5362964584026486,
+          "min": 1.525248666992411,
+          "max": 1.5538557921536267,
+          "stdev": 0.011667326618741133
+        },
+        "search_time": {
+          "mean": 1.5375076583120972,
+          "min": 1.4927030419930816,
+          "max": 1.5819106658454984,
+          "stdev": 0.033397856724703426
+        },
+        "answer_time": {
+          "mean": 52.48228500043042,
+          "min": 43.909582667052746,
+          "max": 63.324474417138845,
+          "stdev": 6.9588396485463235
+        },
+        "total_time": {
+          "mean": 55.55608911714516,
+          "min": 46.956395875895396,
+          "max": 66.43163374997675,
+          "stdev": 6.980536728715524
+        }
+      },
+      "config_name": "Gemini + Gemma3n"
+    },
+    {
+      "query": "ChromaDBの使い方を教えて",
+      "embedding_model": "bgem3",
+      "query_model": "gemini-2.5-flash",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 0.9552454999648035,
+          "search_time": 0.04969145799987018,
+          "answer_time": 6.246131499996409,
+          "total_time": 7.2510684579610825,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 0.4100289170164615,
+          "search_time": 0.04375591711141169,
+          "answer_time": 3.3488432499580085,
+          "total_time": 3.8026280840858817,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 0.4028891248162836,
+          "search_time": 0.044870125129818916,
+          "answer_time": 3.46819662488997,
+          "total_time": 3.9159558748360723,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 0.4201240420807153,
+          "search_time": 0.04638120788149536,
+          "answer_time": 4.177537416107953,
+          "total_time": 4.644042666070163,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 0.4122605000156909,
+          "search_time": 0.054368832847103477,
+          "answer_time": 3.2219235410448164,
+          "total_time": 3.6885528739076108,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 0.520109616778791,
+          "min": 0.4028891248162836,
+          "max": 0.9552454999648035,
+          "stdev": 0.2433260097926508
+        },
+        "search_time": {
+          "mean": 0.047813508193939924,
+          "min": 0.04375591711141169,
+          "max": 0.054368832847103477,
+          "stdev": 0.004291794794202163
+        },
+        "answer_time": {
+          "mean": 4.092526466399431,
+          "min": 3.2219235410448164,
+          "max": 6.246131499996409,
+          "stdev": 1.259567726777374
+        },
+        "total_time": {
+          "mean": 4.660449591372162,
+          "min": 3.6885528739076108,
+          "max": 7.2510684579610825,
+          "stdev": 1.495517231668305
+        }
+      },
+      "config_name": "BGE-M3 + Gemini Flash"
+    },
+    {
+      "query": "ChromaDBの使い方を教えて",
+      "embedding_model": "bgem3",
+      "query_model": "gemma3n:e4b",
+      "top_k": 5,
+      "runs": 5,
+      "raw_results": [
+        {
+          "run": 1,
+          "embed_time": 0.4772124169394374,
+          "search_time": 0.04574083397164941,
+          "answer_time": 52.48372033284977,
+          "total_time": 53.00667358376086,
+          "results_count": 5
+        },
+        {
+          "run": 2,
+          "embed_time": 0.3903866249602288,
+          "search_time": 0.04182274988852441,
+          "answer_time": 46.62798870797269,
+          "total_time": 47.060198082821444,
+          "results_count": 5
+        },
+        {
+          "run": 3,
+          "embed_time": 0.3888157920446247,
+          "search_time": 0.04668720904737711,
+          "answer_time": 50.88491783384234,
+          "total_time": 51.32042083493434,
+          "results_count": 5
+        },
+        {
+          "run": 4,
+          "embed_time": 0.37226562504656613,
+          "search_time": 0.04166458291001618,
+          "answer_time": 51.6052399170585,
+          "total_time": 52.01917012501508,
+          "results_count": 5
+        },
+        {
+          "run": 5,
+          "embed_time": 0.375107292085886,
+          "search_time": 0.04965587495826185,
+          "answer_time": 76.52883470896631,
+          "total_time": 76.95359787601046,
+          "results_count": 5
+        }
+      ],
+      "stats": {
+        "embed_time": {
+          "mean": 0.4007575502153486,
+          "min": 0.37226562504656613,
+          "max": 0.4772124169394374,
+          "stdev": 0.04348917643099566
+        },
+        "search_time": {
+          "mean": 0.04511425015516579,
+          "min": 0.04166458291001618,
+          "max": 0.04965587495826185,
+          "stdev": 0.0033995345606171404
+        },
+        "answer_time": {
+          "mean": 55.62614030013792,
+          "min": 46.62798870797269,
+          "max": 76.52883470896631,
+          "stdev": 11.899695366277417
+        },
+        "total_time": {
+          "mean": 56.07201210050844,
+          "min": 47.060198082821444,
+          "max": 76.95359787601046,
+          "stdev": 11.891728892855378
+        }
+      },
+      "config_name": "BGE-M3 + Gemma3n"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+.venv
+config/.env
+!config/config.yaml
+/data
+/logs
+!.envrc
