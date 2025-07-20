@@ -92,13 +92,19 @@
 | BGE-M3 | 0.34秒 | 0.06秒 | 0.40秒 | 高速だが言語横断検索が弱い |
 | Gemini | 1.40秒 | 1.43秒 | 2.83秒 | 言語横断検索に優れる |
 
-### RAG回答性能比較（日本語クエリ「JETLSのincremental analysis system」）
+### RAG回答性能比較（20 tokens 程度）
 | 構成 | 平均回答生成時間 | 平均合計時間 | 備考 |
 |------|------------------|--------------|------|
 | Gemini + Gemini Flash | 14.6秒 | 17.5秒 | 最も安定した性能 |
 | Gemini + Gemma3n | 38.6秒 | 41.4秒 | ローカルLLMでは高速な部類 |
 | BGE-M3 + Gemini Flash | 14.1秒 | 14.5秒 | **最速構成** |
 | BGE-M3 + Gemma3n | 57.0秒 | 57.4秒 | 完全ローカル構成 |
+
+### RAG回答性能比較（1000 tokens 程度）
+| 構成 | 平均回答生成時間 | 平均合計時間 | 備考 |
+|------|------------------|--------------|------|
+| Gemini + Gemini Flash | 10.0秒 | 13.4秒 | |
+| BGE-M3 + Gemma3n | 103.0秒 | 103.6秒 | |
 
 ### インクリメンタル更新性能
 | モデル | ファイル | チャンク数 | 平均更新時間 | DB処理時間 | API時間 | 備考 |
@@ -192,9 +198,9 @@
    - リランキングの実装
 
 ## 実験データ
-- ベンチマーク結果: 
+- ベンチマーク結果:
   - 検索・回答性能: `results/benchmark_results_20250719_064953.json`
   - インクリメンタル更新: `results/benchmark_results_20250719_134714.json`, `results/benchmark_results_20250719_134836.json`
-- 詳細分析: 
+- 詳細分析:
   - `notes/benchmark-comparison-analysis.md`
   - `notes/cross-language-search-performance.md`
